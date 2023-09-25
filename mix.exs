@@ -52,7 +52,7 @@ defmodule ConstructParams.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:construct, "~> 2.1"},
+      {:construct, git: "https://github.com/dvjoness/construct.git", tag: "v2.1.11"},
       {:decorator, "~> 1.4"},
       {:ex_doc, "~> 0.24.1", only: :dev}
     ]
